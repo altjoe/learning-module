@@ -1,0 +1,39 @@
+{
+  "name": "learning-module",
+  "version": "0.0.1",
+  "description": "Test library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altjoe/learning-module.git"
+  },
+  "author": "alterejoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altjoe/learning-module/issues"
+  },
+  "homepage": "https://github.com/altjoe/learning-module#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.2",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "styled-jsx": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": ">= 18.x.x"
+  },
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ]
+}
